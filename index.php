@@ -340,10 +340,10 @@
                             data: {newObject},
                             dataType: "json",
                             success: function() {
-                                    console.log("ok");
+                                    location.reload();
                             }
                         });
-			    location.reload();
+			    
                     });
                 });
 		        
