@@ -1,13 +1,1 @@
-{
-    "task":[
-        " Faire les courses",
-        "Terminer le projet",
-        "Rappeler Grand-mere",
-        "Payer la facture Sibelga",
-        "Imiter le cri de Chewbaka",
-        "Imiter le cri de Chewbaka"
-      ],
-    "archive":[
-
-    ]
-}
+{"done":["cuisine","m\u00e9nage","courses"],"tache":["lessive","vaisselle"]}
