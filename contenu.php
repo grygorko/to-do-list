@@ -1,6 +1,6 @@
 <?php
 header("Content-type: application/json; charset=utf-8");
-// Get the tache to do from formulaire.php
+// Get the tache to do from index.php
 $ajoutTache = $_POST['tache'];
 // Load the file
 $content = file_get_contents('todo.json');
@@ -13,5 +13,5 @@ $json = json_encode($contentDecoded);
 
 // Save the file
 file_put_contents('todo.json', $json);
-header ('Location: formulaire.php');
+header ('Location: index.php');
 ?>
