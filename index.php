@@ -339,15 +339,13 @@
                                 },
                             data: {newObject},
                             dataType: "json",
-				complete: function() {
-                                    location.reload();
-                                },
                             success: function() {
                                 console.log("ok");
                             }
                         });
 			    
                     });
+			 location.reload();
                 });
 		        
                 $("a#exit").click(function() {
