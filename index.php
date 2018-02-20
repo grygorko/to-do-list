@@ -343,6 +343,7 @@
                                     console.log("ok");
                             }
                         });
+			    location.reload();
                     });
                 });
 		        
