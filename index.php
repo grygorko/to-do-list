@@ -339,8 +339,11 @@
                                 },
                             data: {newObject},
                             dataType: "json",
-                            success: function() {
+				complete: function() {
                                     location.reload();
+                                },
+                            success: function() {
+                                console.log("ok");
                             }
                         });
 			    
