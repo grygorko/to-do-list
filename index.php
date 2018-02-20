@@ -312,8 +312,8 @@
                           clicked.text(newToDo);
                           clicked.css('display','inline');
                           $(this).parent().find(".cache").css('display','none');
-                      }
-  
+			      
+			      
                         var edited = $("#sortable li label span");
                         var done = $("#done ul li span");
                         var newTaches = [];
@@ -339,13 +339,18 @@
                                 },
                             data: {newObject},
                             dataType: "json",
+				complete: function() {
+                                    location.reload();
+                                },
                             success: function() {
                                 console.log("ok");
                             }
                         });
+                      }
+ 
 			    
                     });
-			 location.reload();
+			 
                 });
 		        
                 $("a#exit").click(function() {
